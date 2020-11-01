@@ -39,7 +39,7 @@
 }
 
 html {
-  font-family: sans-serif;
+  font-family: "PT Sans";
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -51,7 +51,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "PT Sans";
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -575,6 +575,39 @@ ul.share-buttons .sr-only{
   height: 100px;
 }
 
+.socialflex{
+  display: flex;
+  list-style-type: none;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.compartir{
+  margin-top: -1rem;
+  text-align: center;
+}
+
+.socialcustom{
+  width: 80px;
+  height: 80px;
+
+
+}
+.socialcustom1{
+  width: 80px;
+  height: 80px;
+  margin-right: 7rem;
+
+
+}.socialcustom2{
+  width: 80px;
+  height: 80px;
+  margin-left: 5.5rem;
+
+
+}
 
 @media (min-width: 576px) {
   .container {
